@@ -1,0 +1,68 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #92ba92;
+}
+body .heading {
+  color: #525e75;
+}
+body .container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 80%;
+  background-color: #525e75;
+  padding: 20px;
+  align-items: center;
+}
+body .container .input {
+  padding: 10px;
+  width: 90%;
+  margin-bottom: 10px;
+  background-color: #f1ddbf;
+  color: #525e75;
+}
+body .container .input::-moz-placeholder {
+  color: #525e75;
+}
+body .container .input::placeholder {
+  color: #525e75;
+}
+body .container .tasks {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  height: 90%;
+  background-color: #f1ddbf;
+  overflow-y: auto;
+  align-items: center;
+}
+body .container .tasks .task {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #525e75;
+  color: #f1ddbf;
+  height: 30px;
+  width: 90%;
+  margin-top: 10px;
+  align-items: center;
+}
+body .container .tasks .task .text {
+  font-size: 1.2rem;
+}
+body .container .tasks .task .delete {
+  background-color: #78938a;
+  color: #f1ddbf;
+  border: none;
+  border-radius: 2px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+body .container .tasks .task .delete:hover {
+  background-color: #92ba92;
+  color: #525e75;
+}/*# sourceMappingURL=style.css.map */
