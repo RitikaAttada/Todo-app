@@ -25,7 +25,7 @@
 
    ```bash
    git clone https://github.com/RitikaAttada/Todo-app.git
-2.Open mainpage.html in your browser.
+2.Open index.html in your browser.
 
 3.Type a task in the input box and press Enter.
 
